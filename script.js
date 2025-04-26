@@ -15,7 +15,7 @@ function auto(){
 	if (money>=10){
 		price_click += 1
 		autoclick +=1
-		money -= 10
+		money -= 1000
 		$('.money__num').text(money)
 	}else{
 		alert("дег не достаточно")
